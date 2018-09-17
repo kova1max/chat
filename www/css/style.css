@@ -22,6 +22,7 @@ header {
     box-shadow: 0 0px 3px 0 #bfbfbf;
     text-align: center;
     padding: 10px;
+    cursor: default;
 }
 
 header h1,h2 {
@@ -39,20 +40,21 @@ header h1 {
 /* main block */
 
 div.main {
+    position: relative;
     background: white;
-    width: 550px;
+    width: 500px;
     margin: 20px auto;
     box-shadow: 0 0 1px 0 #e0e0e0;
-    padding: 10px;
+    padding: 30px 10px;
     text-align: center;
 }
-.main h1, .main h2 {
+.main h1, .main h2, .main h3 {
     display: block;
     padding: 0;
     font-family: 'M PLUS 1p', sans-serif;
 }
 .main h1 {
-    color: black;
+    color: #484848;
     font-size: 30px;
     font-weight: normal;
 }
@@ -62,16 +64,38 @@ div.main {
     font-size: 13px;
 
 }
+.main h3 {
+    position: absolute;
+    bottom: 4px;
+    left: 7px;
+    font-size: 13px;
+
+}
+
+.main h3 a {
+    color: grey;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+
+}
+.main h3 a:hover {
+    color: #929ba7;
+}
 .main input[type=text] {
     display: block;
     margin: 10px auto;
-    width: 200px;
+    width: 170px;
     height: 18px;
-    font-size: 15px;
+    font-size: 13px;
     font-family: Montserrat;
     background: #f3f3f3;
     border: none;
     padding: 3px;
+    padding-left: 10px;
 }
 
 .main input[type=submit] {
@@ -96,5 +120,17 @@ div.main {
     bottom: 5px;
     right: 30px;
     width: 100px;
+}
+
+.msg {
+    display: block;
+    background: red;
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-family: Montserrat;
+    
 }
 
