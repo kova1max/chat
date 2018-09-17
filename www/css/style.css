@@ -91,4 +91,10 @@ div.main {
     border: none;
     box-shadow: 0 0 1px 0 darkgrey;
 }
+.faq {
+    position: absolute;
+    bottom: 5px;
+    right: 30px;
+    width: 100px;
+}
 
