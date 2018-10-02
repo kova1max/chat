@@ -47,6 +47,7 @@ div.main {
     box-shadow: 0 0 1px 0 #e0e0e0;
     padding: 30px 10px;
     text-align: center;
+    
 }
 .main h1, .main h2, .main h3 {
     display: block;
